@@ -1,0 +1,9 @@
+# Synthetic revision for review demonstrations.
+[prefix=proc/boot]
+[uid=0 gid=0] startup = ./synthetic/startup-v2
+[type=link] shell = ksh
+"config file" = {
+mode=release # hashes remain inline content
+literal=\{not a terminator\}
+}
+manifest = ./synthetic/manifest.txt

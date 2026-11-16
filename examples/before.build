@@ -1,0 +1,8 @@
+# Synthetic example; no QNX or BSP files are included.
+[prefix=proc/boot]
+[uid=0 gid=0] startup = ./synthetic/startup
+[type=link] sh = ksh
+"config file" = {
+mode=review # hashes remain inline content
+literal=\{not a terminator\}
+}
